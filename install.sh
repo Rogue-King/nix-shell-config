@@ -23,14 +23,12 @@ nix-channel --add https://nixos.org/channels/nixos-24.11 nixpkgs
 nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz home-manager
 nix-channel --update
 
-replacement_word="$USER"
-
 files=("home.nix" "cli-tools.nix")
 
 for file in "${files[@]}"; do
     if [ -f "$file" ]; then
         # Use sed to replace 'USER' with the replacement word
-        sed -i "s/USER/$replacement_word/g" "$file"
+        sed -i "s/USER/$USER/g" $file
         echo "Processed: $file"
     else
         echo "Error: $file does not exist or is not a regular file."
