@@ -47,4 +47,6 @@ sudo echo "/home/$USER/.nix-profile/bin/zsh" | sudo tee -a /etc/shells
 
 chsh -s /home/$USER/.nix-profile/bin/zsh $USER
 
-source ~/.zshrc
+echo "Restarting Shell, log back in"
+
+exit

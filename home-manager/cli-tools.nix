@@ -8,6 +8,8 @@
     curl
     docker
     dust
+    file
+    findutils
     ghostty
     git
     neovim
@@ -92,6 +94,7 @@
         catp = "bat -p";
         btop = "btop --utf-force";
         open = "xdg-open";
+	rebuild = "sudo home-manager switch";
       };
 
       initExtra = ''
@@ -106,7 +109,6 @@
 
       oh-my-zsh = {
         enable = true;
-        #plugins = ["thefuck"];
       };
     };
   };

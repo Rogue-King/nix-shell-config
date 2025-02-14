@@ -1,3 +1,9 @@
+### Quick Start 
+```
+wget -qO- quickstart.sh | bash
+```
+
+
 ### Install
 
 ```
