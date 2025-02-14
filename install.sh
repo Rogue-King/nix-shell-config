@@ -23,7 +23,7 @@ nix-channel --add https://nixos.org/channels/nixos-24.11 nixpkgs
 nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz home-manager
 nix-channel --update
 
-files=("home.nix" "cli-tools.nix")
+files=("home-manager/home.nix" "home-manager/cli-tools.nix")
 
 for file in "${files[@]}"; do
     if [ -f "$file" ]; then
