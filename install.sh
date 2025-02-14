@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 echo "You are logged in as $USER"
 read -p "Is this the target user? Y/N: " response
