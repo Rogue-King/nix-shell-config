@@ -8,8 +8,7 @@ bash install.sh
 ## Update
 
 ```
-git pull
-bash install.sh
+bash update.sh
 ```
 
 ## Updating Configurations

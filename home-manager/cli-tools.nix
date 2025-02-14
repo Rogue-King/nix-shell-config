@@ -94,7 +94,7 @@
         catp = "bat -p";
         btop = "btop --utf-force";
         open = "xdg-open";
-	rebuild = "sudo home-manager switch";
+	rebuild = "home-manager switch";
       };
 
       initExtra = ''
