@@ -6,7 +6,7 @@
       ./fastfetch/fastfetch.nix
       ./direnv.nix
       ./nixvim/nixvim.nix
-      ./startship.nix
+      ./starship.nix
       inputs.nixvim.homeManagerModules.nixvim
  ];
   
