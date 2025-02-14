@@ -4,7 +4,7 @@
       enable = true;
       settings = {
         logo = {
-          source = "/etc/nixos/home-manager/fastfetch/assets/evangelion-mecha-neon-genesis-desktop-wallpaper-cover.jpg";
+          source = "/etc/nixos/home-manager/fastfetch/assets/Jiji.jpg";
           type = "kitty";
           height = 20;
           width = 60;

@@ -5,9 +5,9 @@
       ./cli-tools.nix
       ./fastfetch/fastfetch.nix
       ./direnv.nix
-      ./nixvim/nixvim.nix
+#      ./nixvim/nixvim.nix
       ./starship.nix
-      inputs.nixvim.homeManagerModules.nixvim
+#      inputs.nixvim.homeManagerModules.nixvim
  ];
   
   # Home Manager needs a bit of information about you and the paths it should
